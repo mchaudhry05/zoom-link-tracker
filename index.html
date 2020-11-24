@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Zoom Link Tracker</title>
+</head>
+<body> 
+    <div class="modal-header">
+        <h1 class="header">Zoom Link Tracker</h1>
+    </div>
+    <div class="modal-content">
+        <div class="add-new-meeting">
+            <form id="form" class="form" name="addMeeting">
+                <label for="name-of-meeting">Meeting Name</label>
+                <input type="text" id="meeting-name" name="meetingName" placeholder="Meeting Name" required></input>
+                <label for="link-for-meeting">Meeting Link</label>
+                <input type="text" id="meeting-link" name="meetingLink" placeholder="Meeting Link"required></input>
+            </form>
+            
+        </div>
+        <div class="button-container">
+            <button id="addMeeting" class="addMeeting">Add</button>
+        </div>
+        <div id="list-of-meetings" class="list-of-meetings">
+            <ul id="meetings" class="meetings">
+                
+            </ul>
+
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
